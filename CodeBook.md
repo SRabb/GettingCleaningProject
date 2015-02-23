@@ -13,5 +13,7 @@ Each subject (see column "sbjct") completed the same 6 tasks
 
 a number of times while being monitoried via a wrist-attached smartphone (Samsung Galaxy S II).  Their triaxial acceleration (from the phone's accelerometer) and Triaxial Angular velocity (from the phone's gyroscope) were recorded during these tasks.
 
-From the original study, " were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. 
+From the original study, these recordings "were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. 
 From each window, a vector of features was obtained by calculating variables from the time and frequency domain"
+
+Of the 561 metrics originally recorded (see "features.txt" in this repository), only the average score values ("mean" values) and standard deviation values ("std" values) were used in the submitted data set.
