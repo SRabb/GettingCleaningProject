@@ -10,3 +10,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 3.  Used descriptive activity names to name the activities in the data set
 4.  Appropriately labeled the data set with descriptive variable names. 
 5.  From the data set in step 4, created a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+###In greater detail, we also used the following R Libraries for additional help along the way:
+1.  the stringr library, to make use of an instring search function for identifying "mean" and "std" related column names
+2.  the reshape2 library, to make use of the melting feature, to reduce the dataset once we have created it
